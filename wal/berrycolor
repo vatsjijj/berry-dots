@@ -1,0 +1,12 @@
+#!/bin/bash
+
+sed -n -e '1,5p' -e '6,8 s/#//p' -e '9,10p' -e '11,26 s/#//p' -e '27,36p' /home/aidan/.cache/wal/colors.sh > /home/aidan/mod_col/colors_mod.sh
+
+chmod +x /home/aidan/mod_col/colors_mod.sh
+
+source /home/aidan/mod_col/colors_mod.sh
+
+berryc inner_focus_color          $color4
+berryc inner_unfocus_color        $color5    
+berryc text_focus_color     $background
+berryc text_unfocus_color   $foreground
