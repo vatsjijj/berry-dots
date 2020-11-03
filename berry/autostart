@@ -10,9 +10,9 @@ berryc top_gap 0
 berryc smart_place "true"
 berryc draw_text   "true"
 berryc edge_lock   "true"
-berryc set_font    "DejaVuSans"
+berryc set_font    "LexendDeca"
 
-wal -i "/home/aidan/Downloads/ccu.jpg"
+wal -i "/home/aidan/Downloads/asfwu.jpg"
 
 sxhkd -c "/home/aidan/.config/berry/sxhkdrc"
 
